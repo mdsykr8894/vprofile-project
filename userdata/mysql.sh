@@ -2,7 +2,7 @@
 DATABASE_PASS='admin123'
 sudo dnf update -y
 sudo dnf install git zip unzip -y
-sudo dnf install mariadb105-server -y
+sudo dnf install mariadb-server -y
 # starting & enabling mariadb-server
 sudo systemctl start mariadb
 sudo systemctl enable mariadb
